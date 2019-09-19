@@ -1,0 +1,312 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\VSProjects\\ShopApp\\ShopApp.Test\\ShopApp.Test.csproj": {}
+  },
+  "projects": {
+    "E:\\VSProjects\\ShopApp\\ShopApp.Domain\\ShopApp.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\VSProjects\\ShopApp\\ShopApp.Domain\\ShopApp.Domain.csproj",
+        "projectName": "ShopApp.Domain",
+        "projectPath": "E:\\VSProjects\\ShopApp\\ShopApp.Domain\\ShopApp.Domain.csproj",
+        "packagesPath": "C:\\Users\\bgdbg\\.nuget\\packages\\",
+        "outputPath": "E:\\VSProjects\\ShopApp\\ShopApp.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bgdbg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "E:\\VSProjects\\ShopApp\\ShopApp.Infrastructure\\ShopApp.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\VSProjects\\ShopApp\\ShopApp.Infrastructure\\ShopApp.Infrastructure.csproj",
+        "projectName": "ShopApp.Infrastructure",
+        "projectPath": "E:\\VSProjects\\ShopApp\\ShopApp.Infrastructure\\ShopApp.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\bgdbg\\.nuget\\packages\\",
+        "outputPath": "E:\\VSProjects\\ShopApp\\ShopApp.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bgdbg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "E:\\VSProjects\\ShopApp\\ShopApp.Domain\\ShopApp.Domain.csproj": {
+                "projectPath": "E:\\VSProjects\\ShopApp\\ShopApp.Domain\\ShopApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "E:\\VSProjects\\ShopApp\\ShopApp.Services\\ShopApp.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\VSProjects\\ShopApp\\ShopApp.Services\\ShopApp.Services.csproj",
+        "projectName": "ShopApp.Services",
+        "projectPath": "E:\\VSProjects\\ShopApp\\ShopApp.Services\\ShopApp.Services.csproj",
+        "packagesPath": "C:\\Users\\bgdbg\\.nuget\\packages\\",
+        "outputPath": "E:\\VSProjects\\ShopApp\\ShopApp.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bgdbg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "E:\\VSProjects\\ShopApp\\ShopApp.Domain\\ShopApp.Domain.csproj": {
+                "projectPath": "E:\\VSProjects\\ShopApp\\ShopApp.Domain\\ShopApp.Domain.csproj"
+              },
+              "E:\\VSProjects\\ShopApp\\ShopApp.Infrastructure\\ShopApp.Infrastructure.csproj": {
+                "projectPath": "E:\\VSProjects\\ShopApp\\ShopApp.Infrastructure\\ShopApp.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "E:\\VSProjects\\ShopApp\\ShopApp.Test\\ShopApp.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\VSProjects\\ShopApp\\ShopApp.Test\\ShopApp.Test.csproj",
+        "projectName": "ShopApp.Test",
+        "projectPath": "E:\\VSProjects\\ShopApp\\ShopApp.Test\\ShopApp.Test.csproj",
+        "packagesPath": "C:\\Users\\bgdbg\\.nuget\\packages\\",
+        "outputPath": "E:\\VSProjects\\ShopApp\\ShopApp.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bgdbg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "E:\\VSProjects\\ShopApp\\ShopApp\\ShopApp.csproj": {
+                "projectPath": "E:\\VSProjects\\ShopApp\\ShopApp\\ShopApp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "E:\\VSProjects\\ShopApp\\ShopApp\\ShopApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\VSProjects\\ShopApp\\ShopApp\\ShopApp.csproj",
+        "projectName": "ShopApp",
+        "projectPath": "E:\\VSProjects\\ShopApp\\ShopApp\\ShopApp.csproj",
+        "packagesPath": "C:\\Users\\bgdbg\\.nuget\\packages\\",
+        "outputPath": "E:\\VSProjects\\ShopApp\\ShopApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bgdbg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "E:\\VSProjects\\ShopApp\\ShopApp.Services\\ShopApp.Services.csproj": {
+                "projectPath": "E:\\VSProjects\\ShopApp\\ShopApp.Services\\ShopApp.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
